@@ -1,4 +1,4 @@
-# 콕(KOK) | 빈 자리에 콕, 채우는 가능성
+# 콕(KOK) | 체험중심 플랫폼 - 빈 자리에 콕, 채우는 가능성
 
 ![슬라이드메인](https://github.com/user-attachments/assets/792e1f6c-ff5d-47e9-a301-cf6aaa0c1d32)
 
