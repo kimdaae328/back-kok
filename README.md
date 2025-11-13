@@ -1,5 +1,6 @@
 # 콕(KOK) | 체험중심 플랫폼 - 빈 자리에 콕, 채우는 가능성
 
+![슬라이드메인](https://github.com/user-attachments/assets/792e1f6c-ff5d-47e9-a301-cf6aaa0c1d32)
 ## 링크 : http://kok-place.store/member/login
 ## 계정 정보
 
@@ -12,8 +13,6 @@
 | **기업 로그인** | kok@gmail.com | 1234 | 기업 콘솔용 |
 | **회원 로그인** | k@gmail.com | 1234 | 일반 사용자용 |
 
-
-![슬라이드메인](https://github.com/user-attachments/assets/792e1f6c-ff5d-47e9-a301-cf6aaa0c1d32)
 
 ## 1. 프로젝트 소개
 휴가나 공백으로 발생한 자리에서,  
