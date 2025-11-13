@@ -12,6 +12,8 @@
 2025.09.24 ~ 2025.10.20
 
 ## 3. 기획 배경
+데이터 분석 : https://github.com/kimdaae328/study-data-analysis/blob/master/c_pandas/c_graduate_employment.ipynb
+
 최근 일반 고용지표를 데이터 분석을 통해 확인한 결과
 취업률이 꾸준히 높아지는 긍정적인 흐름을 보인다.
 하지만 청년층 고용지표를 따로 살펴보면 상황이 다르다.
