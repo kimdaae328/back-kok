@@ -43,8 +43,10 @@
 경험을 중심으로 한 성장의 순환을 지향하며,  
 업무의 공백을 기회로 바꾸고 사람의 가능성을 연결한다.
 
+
 ## 2. 개발 기간
 2025.09.24 ~ 2025.10.20
+
 
 ## 3. 기획 배경
 데이터 분석 : https://github.com/kimdaae328/study-data-analysis/blob/master/c_pandas/c_graduate_employment.ipynb
@@ -74,7 +76,6 @@
 **KOK**는 청년에게는 경험의 기회, 기업에게는 브랜드의 기회,  
 그리고 사회에는 연결의 가치를 만들어가는 플랫폼이다.
 
----
 
 ## 4. 기대효과
 
@@ -96,7 +97,6 @@
 - 공백 인력을 단순히 대체하는 것이 아니라, 청년의 경험 기회로 전환하여 상호 이익의 순환 구조를 만든다.
 - 기업, 청년, 사회가 함께 참여하는 새로운 형태의 고용 문화가 확산된다.
 
----
 
 ## 5. 개발환경
 
@@ -117,13 +117,11 @@
 - Naver OAuth
 - Kakao OAuth
 
----
 
 ## 6. ERD
 
 ![tbl_admin_notice-white](https://github.com/user-attachments/assets/7d9d3374-1d2e-4855-8d26-6eafa6c1ad6c)
 
----
 
 ## 7. 담당업무
 
@@ -143,7 +141,6 @@
 
 ![프론트 퍼블리싱 진행률](https://github.com/user-attachments/assets/8f99974a-0e9b-43a2-9a60-0ba40ff65c78)
 
----
 
 ### **백엔드**
 
@@ -243,9 +240,8 @@
 
 ![프론트 백엔드 진행률](https://github.com/user-attachments/assets/aafe8f75-c2c2-49af-a3a1-684bce05e791)
 
-## 8. AI 활용 – 광고 AI 분석 요청 기능
 
----
+## 8. AI 활용 – 광고 AI 분석 요청 기능
 
 <img width="2555" height="1380" alt="ai" src="https://github.com/user-attachments/assets/64a464d4-7487-41be-8cd6-9a326bac5d45" />
 
@@ -274,11 +270,9 @@
   **“지난 한 달간 가장 높은 클릭률을 기록한 광고와 XX% 유사합니다.”**  
   형태로 결과 즉시 출력
 
----
+  
 
 ## 8. 트러블슈팅
-
----
 
 ### **필수값 누락으로 DB 삽입 실패**
 
