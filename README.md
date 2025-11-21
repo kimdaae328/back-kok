@@ -8,10 +8,33 @@
 |------|-----------------------|
 | **운영시간** | 10:00 ~ 20:00 |
 
-| 구분 | 아이디 | 비밀번호 | 비고 |
-|------|-----------------------|-----------|-------|
-| **기업 로그인** | kok@gmail.com | 1234 | 기업 콘솔용 |
-| **회원 로그인** | k@gmail.com | 1234 | 일반 사용자용 |
+<table style="width:100%;">
+  <tr>
+    <th>구분</th>
+    <th>아이디</th>
+    <th>비밀번호</th>
+    <th>주소</th>
+  </tr>
+  <tr>
+    <td><b>기업 로그인</b></td>
+    <td>biz01@gmail.com</td>
+    <td>1234</td>
+    <td>http://kok-place.store/member/login</td>
+  </tr>
+  <tr>
+    <td><b>회원 로그인</b></td>
+    <td>m01@gmail.com</td>
+    <td>1234</td>
+    <td>http://kok-place.store/member/login</td>
+  </tr>
+  <tr>
+    <td><b>관리자 로그인</b></td>
+    <td>admin@gmail.com</td>
+    <td>1234</td>
+    <td>http://kok-place.store/admin/login</td>
+  </tr>
+</table>
+
 
 
 ## 1. 프로젝트 소개
@@ -219,6 +242,40 @@
 ---
 
 ![프론트 백엔드 진행률](https://github.com/user-attachments/assets/aafe8f75-c2c2-49af-a3a1-684bce05e791)
+
+## 8. AI 활용 – 광고 AI 분석 요청 기능
+
+---
+
+<img width="2555" height="1380" alt="ai" src="https://github.com/user-attachments/assets/64a464d4-7487-41be-8cd6-9a326bac5d45" />
+
+### 기능 개요
+
+기업이 작성한 광고 문구를 기반으로, 최근 한 달 동안 **가장 높은 클릭률을 기록한 광고와의 유사도**를 AI로 분석해주는 기능이다.  
+이를 통해 광고 성과를 직관적으로 파악할 수 있으며, 기업이 더 나은 문구로 개선할 수 있도록 돕는다.
+
+### 동작 방식
+
+#### 1. 광고 문구 전처리
+- 조사 제거, 불용어 제거 등 텍스트 클렌징 수행  
+- CountVectorizer 기반 BoW 임베딩 생성
+
+#### 2. 문장 벡터 계산 & 유사도 측정
+- 기업이 입력한 광고 문구와  
+  최근 한 달 내 업로드된 광고 본문을 벡터화  
+- 코사인 유사도(cosine similarity)를 사용해 문장 간 유사도 계산
+
+#### 3. 성과 데이터 반영
+- 각 광고의 클릭 수(clickCount)를 함께 수집  
+- 유사도 + 클릭률을 기준으로 가장 가까운 상위 광고 추출
+
+#### 4. 프론트 화면 반영
+- 사용자가 “AI 분석 요청” 버튼 클릭 시  
+  **“지난 한 달간 가장 높은 클릭률을 기록한 광고와 XX% 유사합니다.”**  
+  형태로 결과 즉시 출력
+
+---
+
 ## 8. 트러블슈팅
 
 ---
