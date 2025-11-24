@@ -17,7 +17,7 @@
   </tr>
   <tr>
     <td><b>기업 로그인</b></td>
-    <td>biz03@gmail.com</td>
+    <td>biz02@gmail.com</td>
     <td>1234</td>
     <td>http://kok-place.store/member/login</td>
   </tr>
